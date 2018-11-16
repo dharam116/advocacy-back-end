@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "users": {
+    "dataSource": "advocates",
+    "public": true
+  },
+  "forget_password": {
+    "dataSource": "advocates",
+    "public": true
+  },
+  "reset_password": {
+    "dataSource": "advocates",
+    "public": true
+  },
+  "Email-verification": {
+    "dataSource": "advocates",
+    "public": true
+  },
+  "user-profile": {
+    "dataSource": "advocates",
+    "public": true
+  }
+}

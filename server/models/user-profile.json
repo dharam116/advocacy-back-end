@@ -1,0 +1,40 @@
+{
+  "name": "user-profile",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "e-mail": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "mobile-no": {
+      "type": "number",
+      "required": true
+    },
+    "createdate": {
+      "type": "date"
+    },
+    "status": {
+      "type": "boolean",
+      "required": true
+    },
+    "updateddate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

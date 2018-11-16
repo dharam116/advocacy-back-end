@@ -1,0 +1,12 @@
+{
+  "advocates": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "search_advocatesDB",
+    "password": "",
+    "name": "advocates",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
